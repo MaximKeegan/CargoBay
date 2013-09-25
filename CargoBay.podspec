@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
   s.source   = { :git => 'https://github.com/mattt/CargoBay.git', :tag => '0.3.3' }
   s.source_files = 'CargoBay'
-  s.requires_arc = true
+  s.requires_arc = false
 
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
